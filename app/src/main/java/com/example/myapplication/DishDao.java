@@ -6,7 +6,8 @@ import androidx.room.Insert;
 import androidx.room.Query;
 
 import java.util.List;
-
+//create an interface with Dao annotate so we can access the database
+//add methods to control the data
 @Dao
 public interface DishDao {
     @Query("SELECT * FROM dish")
